@@ -1,0 +1,13 @@
+PROJECT STANDARDS: Blueprint Architectural Design
+
+Navigation: Header logo is linked to #top for easy return.
+
+Typography: Hero headline is set to 4rem.
+
+Brand Color: Approach heading uses Navy Blue #1e2c51.
+
+Alignment: Approach section is centered with a 2.5rem gap below the heading.
+
+Spacing: Contact section includes a 2rem vertical gap above office addresses for legibility.
+
+Backgrounds: Hero/Work use primary white; Approach/Contact use light neutral #f6f6f4.
