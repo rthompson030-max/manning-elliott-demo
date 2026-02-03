@@ -84,6 +84,20 @@ header.scrolled {
     transition: all 0.4s var(--transition-base);
 }
 
+.logo-container {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    background-color: #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.logo-container img {
+    display: block;
+}
+
 header.scrolled .logo img {
     height: 80px;
 }
