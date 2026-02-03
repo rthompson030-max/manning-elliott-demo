@@ -215,6 +215,14 @@ h1 .hero h1,
     margin: 0 auto;
 }
 
+.approach-intro {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #1c1c1c;
+    margin-bottom: 1.5rem;
+}
+
 .approach-content h2 {
     font-size: 3rem;
     font-weight: 300;
@@ -224,10 +232,10 @@ h1 .hero h1,
 }
 
 .approach-text {
-    font-size: 1.15rem;
-    color: #1c1c1c;
+    font-size: 0.95rem;
+    color: rgba(0, 0, 0, 0.6);
     margin-bottom: 3rem;
-    line-height: 1.8;
+    line-height: 1.6;
 }
 
 .specialties-list {
