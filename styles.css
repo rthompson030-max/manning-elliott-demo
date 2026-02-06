@@ -500,18 +500,25 @@ h1 .hero h1,
 }.logo {
     margin-top: 20px;
     padding-top: 15px;
-}
-/* === MANNING ELLIOTT HERO TEXT CENTER - NO LEFT WHITESPACE === */
+}/* === MANNING HERO EMERGENCY RESET === */
 .hero,
-.hero-section,
-.hero-text,
-.hero-content,
-h1,
-.hero-subtitle {
+.hero-section {
+    background: rgba(0,0,0,0.4) !important;
+    background-image: inherit !important;
+    background-blend-mode: multiply !important;
     text-align: center !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+h1,
+.hero h1,
+.hero-title,
+.hero-subtitle {
+    color: white !important;
+    text-align: center !important;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8) !important;
+    position: relative !important;
+    z-index: 10 !important;
     display: block !important;
-    width: 100% !important;
-    max-width: 800px !important;
 }
