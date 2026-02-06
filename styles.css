@@ -500,25 +500,47 @@ h1 .hero h1,
 }.logo {
     margin-top: 20px;
     padding-top: 15px;
-}/* === MANNING HERO EMERGENCY RESET === */
-.hero,
-.hero-section {
-    background: rgba(0,0,0,0.4) !important;
-    background-image: inherit !important;
-    background-blend-mode: multiply !important;
-    text-align: center !important;
-    padding: 0 !important;
+}/* === FINAL MANNING HERO PERFECT FIX === */
+.hero-section,
+.hero {
+    position: relative !important;
+    background-size: cover !important;
+    background-position: center !important;
+    padding: 15rem 0 !important;
     margin: 0 !important;
+    width: 100% !important;
 }
 
-h1,
+.hero::before {
+    content: '' !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    background: rgba(0,0,0,0.5) !important;
+    z-index: 1 !important;
+}
+
 .hero h1,
-.hero-title,
-.hero-subtitle {
-    color: white !important;
-    text-align: center !important;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.8) !important;
+.hero-title {
     position: relative !important;
-    z-index: 10 !important;
-    display: block !important;
+    z-index: 2 !important;
+    color: white !important;
+    text-align: CENTER !important;
+    font-size: 2.5rem !important;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8) !important;
+    margin: 0 auto !important;
+    max-width: 800px !important;
+    padding: 0 2rem !important;
+}
+
+.hero-subtitle {
+    position: relative !important;
+    z-index: 2 !important;
+    color: white !important;
+    text-align: CENTER !important;
+    max-width: 800px !important;
+    margin: 1rem auto 0 !important;
+    padding: 0 2rem !important;
 }
