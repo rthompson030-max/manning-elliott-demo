@@ -501,22 +501,17 @@ h1 .hero h1,
     margin-top: 20px;
     padding-top: 15px;
 }
-/* === MANNING ELLIOTT HERO TEXT CENTER FIX === */
+/* === MANNING ELLIOTT HERO TEXT CENTER - NO LEFT WHITESPACE === */
 .hero,
 .hero-section,
 .hero-text,
 .hero-content,
-.hero-title,
-.hero-subtitle,
 h1,
-.hero h1,
-p.hero-subtitle {
+.hero-subtitle {
     text-align: center !important;
-    position: relative !important;
-    left: 50% !important;
-    transform: translateX(-50%) !important;
-    width: 90% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+    width: 100% !important;
     max-width: 800px !important;
-    margin: 0 auto !important;
 }
-/* ↑ END PASTE */
